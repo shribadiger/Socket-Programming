@@ -19,3 +19,5 @@ TCP/IP provides end-to-end connectivity specify the how data should be
 ```
 
 <img src="Network1.JPG" usemap="#mymap"/>
+
+### Network Address Class Details ###
