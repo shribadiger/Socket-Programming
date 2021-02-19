@@ -18,3 +18,4 @@ TCP/IP provides end-to-end connectivity specify the how data should be
 +--------+    +--------+     +---------+    +--------+
 ```
 
+<img src="Network1.jpg" usemap="#mymap"/>
