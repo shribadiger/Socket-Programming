@@ -51,3 +51,17 @@ IP-----channel ----IP---channel-------IP
 
 ### Client - Server Communication in UNIX ###
 <img src="TcpUdp.JPG" usemap="#mymap"/>
+
+### Step by Step Approach to create Socket ###
+```c++
+int socketID = socket(PF_INET, SOCK_STREAM, 0);
+/*
+  Signature of Socket:
+     socket(family,type,protocol);
+     family: indicates the communication domain
+     type: indicate the communication type SOCK_STREAM or SOCK_DGRAM
+     protocol: indicate the protocol type ( IPPROTO_TCP, IPPROTO_UDP and 0 for default protocol)
+     return: -1 in case of socket creation failure
+ */
+```
+
