@@ -23,3 +23,17 @@ TCP/IP provides end-to-end connectivity specify the how data should be
 ### Network Address Class Details ###
 
 <img src="AddressClass.JPG" usemap="#mymap"/>
+
+### Socket: ###
+It is abstraction through which an application can send/receive data and it helps to inter-process communications. 
+```
+Application                           Application
+Socket                                Socket
+TCP                                   TCP
+IP-----channel ----IP---channel-------IP
+```
+
+There are two type of sockets 
+1) TCP Plain Socket
+2) UDP Socket
+
