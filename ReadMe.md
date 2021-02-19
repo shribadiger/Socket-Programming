@@ -53,6 +53,7 @@ IP-----channel ----IP---channel-------IP
 <img src="TcpUdp.JPG" usemap="#mymap"/>
 
 ### Step by Step Approach to create Socket ###
+##### 1) socket Creation 
 ```c++
 int socketID = socket(PF_INET, SOCK_STREAM, 0);
 /*
@@ -64,4 +65,8 @@ int socketID = socket(PF_INET, SOCK_STREAM, 0);
      return: -1 in case of socket creation failure
  */
 ```
+
+#### 2) socket Address Specification
+socket API is defined in generic data type
+
 
