@@ -47,3 +47,7 @@ IP-----channel ----IP---channel-------IP
 | send      | Send the data over network |
 | Receive   | Receive data from the connection |
 | Close     | Release the connection |
+
+
+### Client - Server Communication in UNIX ###
+<img src="TcpUdp.JPG" usemap="#mymap"/>
