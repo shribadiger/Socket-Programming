@@ -33,7 +33,17 @@ TCP                                   TCP
 IP-----channel ----IP---channel-------IP
 ```
 
-There are two type of sockets 
+### There are two type of sockets 
 1) TCP Plain Socket
 2) UDP Socket
 
+| Primitive | Meaning|
+|-----------|--------|
+| socket    |It created socket descriptor helps to communicate end to end|
+| Bind      | Attach the local address to socket|
+| Listen    | non-blocking call to listen to accept new connections |
+| Accept    | Blocking to accept the connection |
+| Connect   | Actively attempt to establish the connection|
+| send      | Send the data over network |
+| Receive   | Receive data from the connection |
+| Close     | Release the connection |
